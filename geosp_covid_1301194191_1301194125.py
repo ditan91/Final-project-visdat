@@ -91,7 +91,7 @@ dPicker = DatePicker(
 dPicker.on_change('value', update_plot)
 
 data_select = Select(
-    options=['new_cases', 'new_deaths',	'new_recovered', 'new_activeCases', 'total_cases', 'total_deaths',	'total_recovered', 'total_activeCases'],
+    options=['new_cases', 'new_deaths',	'new_recovered', 'new_activeCases', 'total_cases', 'total_deaths', 'total_recovered', 'total_activeCases'],
     value='new_cases',
     title='x-axis data'
 )
